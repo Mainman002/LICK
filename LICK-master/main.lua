@@ -22,6 +22,6 @@ function love.draw(dt)
     love.graphics.setColor(255, 255, 255, 255)
     love.graphics.circle("fill", 400+100*math.sin(circle.x), 300, 24, 6)
     love.graphics.circle("line", 400+100*math.sin(circle.x), 300, 45, 6)
-    love.graphics.circle("line", 400+100*math.sin(circle.x), 300, 80, 6)
+    --love.graphics.circle("line", 400+100*math.sin(circle.x), 300, 80, 6)
 end
 
